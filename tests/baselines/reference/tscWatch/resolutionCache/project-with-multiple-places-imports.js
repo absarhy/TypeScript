@@ -157,6 +157,8 @@ File '/home/src/workspaces/project/node_modules/pkg0/index.tsx' does not exist.
 File '/home/src/workspaces/project/node_modules/pkg0/index.d.ts' exists - use it as a name resolution result.
 Resolving real path for '/home/src/workspaces/project/node_modules/pkg0/index.d.ts', result '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'.
 ======== Module name 'pkg0' was successfully resolved to '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/node_modules 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/node_modules 1 undefined Failed Lookup Locations
 ======== Resolving module 'pkg1' from '/home/src/workspaces/project/fileWithImports.ts'. ========
 Module resolution kind is not specified, using 'Node10'.
 Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, Declaration.
@@ -178,6 +180,8 @@ Directory '/home/src/node_modules' does not exist, skipping all lookups in it.
 Directory '/home/node_modules' does not exist, skipping all lookups in it.
 Directory '/node_modules' does not exist, skipping all lookups in it.
 ======== Module name 'pkg1' was not resolved. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/node_modules 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/node_modules 1 undefined Failed Lookup Locations
 File '/home/src/workspaces/project/node_modules/pkg0/package.json' does not exist according to earlier cached lookups.
 File '/home/src/workspaces/project/node_modules/package.json' does not exist.
 File '/home/src/workspaces/project/package.json' does not exist.
@@ -195,6 +199,8 @@ Searching all ancestor node_modules directories for preferred extensions: TypeSc
 Directory '/home/src/workspaces/project/a/node_modules' does not exist, skipping all lookups in it.
 Resolution for module 'pkg0' was found in cache from location '/home/src/workspaces/project'.
 ======== Module name 'pkg0' was successfully resolved to '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/a 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/a 1 undefined Failed Lookup Locations
 ======== Resolving module 'pkg1' from '/home/src/workspaces/project/a/fileWithImports.ts'. ========
 Module resolution kind is not specified, using 'Node10'.
 Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, Declaration.
@@ -211,6 +217,8 @@ Directory '/home/src/workspaces/project/b/ba/node_modules' does not exist, skipp
 Directory '/home/src/workspaces/project/b/node_modules' does not exist, skipping all lookups in it.
 Resolution for module 'pkg0' was found in cache from location '/home/src/workspaces/project'.
 ======== Module name 'pkg0' was successfully resolved to '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/b 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/b 1 undefined Failed Lookup Locations
 ======== Resolving module 'pkg1' from '/home/src/workspaces/project/b/ba/fileWithImports.ts'. ========
 Module resolution kind is not specified, using 'Node10'.
 Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, Declaration.
@@ -229,6 +237,8 @@ Directory '/home/src/workspaces/project/c/ca/node_modules' does not exist, skipp
 Directory '/home/src/workspaces/project/c/node_modules' does not exist, skipping all lookups in it.
 Resolution for module 'pkg0' was found in cache from location '/home/src/workspaces/project'.
 ======== Module name 'pkg0' was successfully resolved to '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/c 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/c 1 undefined Failed Lookup Locations
 ======== Resolving module 'pkg1' from '/home/src/workspaces/project/c/ca/fileWithImports.ts'. ========
 Module resolution kind is not specified, using 'Node10'.
 Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, Declaration.
@@ -282,6 +292,8 @@ Directory '/home/src/workspaces/project/d/da/node_modules' does not exist, skipp
 Directory '/home/src/workspaces/project/d/node_modules' does not exist, skipping all lookups in it.
 Resolution for module 'pkg0' was found in cache from location '/home/src/workspaces/project'.
 ======== Module name 'pkg0' was successfully resolved to '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/d 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/d 1 undefined Failed Lookup Locations
 ======== Resolving module 'pkg1' from '/home/src/workspaces/project/d/da/daa/daaa/fileWithImports.ts'. ========
 Module resolution kind is not specified, using 'Node10'.
 Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, Declaration.
@@ -327,6 +339,8 @@ Directory '/home/src/workspaces/project/e/ea/node_modules' does not exist, skipp
 Directory '/home/src/workspaces/project/e/node_modules' does not exist, skipping all lookups in it.
 Resolution for module 'pkg0' was found in cache from location '/home/src/workspaces/project'.
 ======== Module name 'pkg0' was successfully resolved to '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/e 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/e 1 undefined Failed Lookup Locations
 ======== Resolving module 'pkg1' from '/home/src/workspaces/project/e/ea/fileWithImports.ts'. ========
 Module resolution kind is not specified, using 'Node10'.
 Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, Declaration.
@@ -378,6 +392,8 @@ Directory '/home/src/workspaces/project/f/fa/node_modules' does not exist, skipp
 Directory '/home/src/workspaces/project/f/node_modules' does not exist, skipping all lookups in it.
 Resolution for module 'pkg0' was found in cache from location '/home/src/workspaces/project'.
 ======== Module name 'pkg0' was successfully resolved to '/home/src/workspaces/project/node_modules/pkg0/index.d.ts'. ========
+DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/f 1 undefined Failed Lookup Locations
+Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/f 1 undefined Failed Lookup Locations
 ======== Resolving module 'pkg1' from '/home/src/workspaces/project/f/fa/faa/faaa/fileWithImports.ts'. ========
 Module resolution kind is not specified, using 'Node10'.
 Loading module 'pkg1' from 'node_modules' folder, target file types: TypeScript, Declaration.
@@ -389,22 +405,6 @@ Directory '/home/src/workspaces/project/f/node_modules' does not exist, skipping
 Resolution for module 'pkg1' was found in cache from location '/home/src/workspaces/project'.
 ======== Module name 'pkg1' was not resolved. ========
 FileWatcher:: Added:: WatchInfo: /home/src/tslibs/TS/Lib/lib.d.ts 250 undefined Source file
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/node_modules 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/node_modules 1 undefined Failed Lookup Locations
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/a 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/a 1 undefined Failed Lookup Locations
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/b 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/b 1 undefined Failed Lookup Locations
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/c 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/c 1 undefined Failed Lookup Locations
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/d 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/d 1 undefined Failed Lookup Locations
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/e 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/e 1 undefined Failed Lookup Locations
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/f 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/project/f 1 undefined Failed Lookup Locations
-DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/node_modules 1 undefined Failed Lookup Locations
-Elapsed:: *ms DirectoryWatcher:: Added:: WatchInfo: /home/src/workspaces/node_modules 1 undefined Failed Lookup Locations
 FileWatcher:: Added:: WatchInfo: /home/src/workspaces/project/node_modules/pkg0/package.json 2000 undefined File location affecting resolution
 FileWatcher:: Added:: WatchInfo: /home/src/workspaces/project/node_modules/package.json 2000 undefined File location affecting resolution
 FileWatcher:: Added:: WatchInfo: /home/src/workspaces/project/package.json 2000 undefined File location affecting resolution
